@@ -165,7 +165,7 @@ footer div h3{
 
 /* Whatsapp button */
 
-.button-whatsapp i {
+.button-whatsapp {
     font-size: 32px;
     position: fixed;
     z-index: 1000;
@@ -187,7 +187,11 @@ footer div h3{
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
-.button-whatsapp i:hover {
+.button-whatsapp i {
+    font-size: 32px;
+}
+
+.button-whatsapp :hover {
   background-color: #1ebe5d;
   transform: scale(1.08);
 }
