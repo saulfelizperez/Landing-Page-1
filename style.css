@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: black;
+    color: #EEDC82;
+    font-family: auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*header */
+
+header{
+    background-image: linear-gradient(to bottom, #1E1E1EB3 0%, #1E1E1E66 50%, #1E1E1EB3 90%) ,url("../img/calzado.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    opacity: 1;
+
+    /*Flex Box*/   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 30px;
+   
+}
+
+header .button{
+    text-decoration: none;
+    background: #EEDC82;
+    color: black;
+    border: white 1px solid;
+    padding: 10px 20px;
+    border-radius: 20%;
+    position: absolute;
+    bottom: 10vh;
+}
+
+header .button:hover{
+    color: #684624cf;
+    
+    
+}
+
+/* main */
+
+
+
+
+/* Section a */
+
+main section.section-a{
+    background-image: url("../img/calzado-callejero.jpg");
+
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* Flexbox */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#servicios{
+    border: #EEDC82 1px solid;
+    padding: 10px 50px;
+    background: #654321;
+    font-size: 40px;
+}
+
+/* Section b */
+
+
+
+section.section-b {
+    
+    min-height: 190px;
+    display: flex;
+    
+}
+
+/* Articles */
+
+#article-a, #article-c{
+    background: #654321;
+    text-align: center;
+
+}
+
+#article-b  {
+    background: #EEDC82;
+    color: #654321;
+    text-align: center;
+    
+    
+}
+
+#article-a, #article-b, #article-c{
+    
+    flex: 1;
+    /* FlexBox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer */
+
+footer section{
+    color: black;
+}
+
+
+footer section.section-d{
+    background: #eedc82dc;
+    height: 23vh;
+
+    /* FlexBox */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+footer section.section-f{
+    background: #EEDC82;
+    color: black;
+    height: 4vh;
+
+    /* FlexBox */
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    
+}
+
+footer div h3{
+    line-height: 1.5;
+}
+
+.links a{
+    color: black;
+}
+
+.links a:hover{
+    color: #654321;
+}
+
+/* Whatsapp button */
+
+.button-whatsapp i {
+    font-size: 32px;
+    position: fixed;
+    z-index: 1000;
+    right: 24px;
+    bottom: 24px;
+    border: #25d366 1px solid;
+    color: white;
+    background: #25d366;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+
+    /* FlexBox */
+
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.button-whatsapp i:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.08);
+}
+
+/* Responsive Design */
+
+@media (max-width:600px){
+    header{
+        padding: 20px;
+        
+    }
+}
+
+
+@media (max-width:600px){
+    header h1#titulo-oficial{
+    
+        font-size: 40px;
+        
+       
+        text-align: center;
+        
+    }
+}
+
+
+@media (max-width:600px){
+    footer section.section-d {
+        font-size: 17px;
+        padding: 10px;
+
+        display: flex;
+        justify-content: space-around;
+        
+    }
+}
+
+@media (max-width:600px){
+    footer section.section-f {
+        font-size: 17px;
+        
+    }
+}
+
+
+
+
+
+
+
+
