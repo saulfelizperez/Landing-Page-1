@@ -1,3 +1,3 @@
 ### Deployment
 
-https://vercel.com/saulfelizperezs-projects/landing-page-1/d6BcrWU7BJUoAd8Y5ZenKPBNYMEL
+https://landing-page-1-8wlqebxcc-saulfelizperezs-projects.vercel.app/
